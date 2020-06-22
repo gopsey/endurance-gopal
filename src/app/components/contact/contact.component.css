@@ -1,0 +1,22 @@
+.parallax-container .parallax img {
+    opacity: .5 !important;
+}
+.parallax-container .parallax h4 {
+    margin-top: 100px;
+    text-align: center;
+    color: #000000;
+    font-weight: 500;
+}
+.parallax-container .parallax h5 {
+    text-align: center;
+    color: #000000;
+}
+.parallax-container .row-container {
+    margin-top: 200px;
+}
+.parallax-container .row-container .input-field label {
+    color: #1a1a1a;
+}
+.form-submit {
+    text-align: center;
+}

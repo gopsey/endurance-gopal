@@ -1,0 +1,86 @@
+.carousel{
+    height:500px;
+    display: inline-block;
+}
+.portfolioImage {
+    float: left;
+    text-align: center;
+}
+.portfolioImage img {
+    height: 300px;
+    border-radius: 4px;
+    margin-top: 100px;
+}
+.portfolioText {
+    float: left;
+    padding: 90px 90px 0 0;
+}
+.portfolioText a {
+    margin-top: 25px;
+    width: 200px;
+    font-size: 16px;
+}
+.carousel-item .portfolioText .portfolioTitle p {
+    font-size: 34px;
+    font-weight: 500px;
+}
+.carousel-item .portfolioText .portfolioDescription p {
+    font-size: 17px;
+}
+h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.carousel ul.indicators li.indicator-item {
+    background-color: teal !important;
+}
+
+/* Tablet Specific Width */
+@media(min-width: 601px) and (max-width: 991px) {
+    .carousel {
+        height: 800px;
+    }
+    .carousel-slider .carousel-item {
+        text-align: center;
+    }
+}
+
+/* Mobile Specific Width */
+@media(max-width: 600px) {
+    .main-content {
+        padding: 0 16px;
+        text-align: center;
+    }
+    .carousel {
+        height: 600px;
+    }
+    .portfolioImage {
+        float: left;
+        padding: 0;
+        text-align: center;
+    }
+    .portfolioImage img {
+        margin-top: 30px;
+        height: 200px;
+        border-radius: 4px;
+    }
+    .portfolioText {
+        float: left;
+        padding: 0;
+    }
+    .carousel-item .portfolioText .portfolioTitle p {
+        font-size: 28px;
+        font-weight: 500px;
+        margin: 15px 0 15px 0;
+    }
+    .carousel .carousel-item .portfolioText .portfolioDescription p {
+        font-size: 17px;
+        margin-top: 10px;
+        padding: 0 5px 0 5px;
+    }
+    .portfolioText a {
+        margin-top: 0;
+        width: 200px;
+        font-size: 16px;
+    }
+}

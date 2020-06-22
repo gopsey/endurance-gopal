@@ -1,0 +1,131 @@
+.main-content {
+    padding: 0 100px;
+    display: inline-block;
+}
+.main-content h5 {
+    text-align: center;
+}
+.about-head {
+    font-size: 20px;
+}
+.about-body {
+    font-size: 15px;
+}
+.about-text-container {
+    width: 35%;
+    float: left;
+}
+.about-text-container img {
+    height: 20px;
+}
+.about-text-image {
+    width: 55%;
+    float: right;
+    overflow: hidden;
+}
+.abouticons {
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+}
+.aboutcontainertext {
+    width: 80%;
+    float: left;
+}
+.about-wrapper {
+    display: inline-block;
+}
+
+/* Web Specific Width */
+@media (min-width: 992px){
+
+}
+
+/* Tablet Specific Width */
+@media(min-width: 601px) and (max-width: 991px) {
+    .about-text-container {
+        width: 100%;
+    }
+    /* Removing image in mobile view */
+    .about-text-image {
+        width: 100%;
+    }
+}
+
+/* Mobile Specific Width */
+@media(max-width: 600px) {
+    .main-content {
+        padding: 0 16px;
+        width: 100%;
+    }
+    .about-text-container {
+        width: 100%;
+        float: left;
+    }
+    /* Removing image in mobile view */
+    .about-text-image {
+        display: none;
+        width: 0%;
+    }
+    .about-wrapper {
+        display: inline-block;
+        width: 100%;
+    }
+    .abouticons {
+        width: 15%;
+        float: left;
+        margin-top: 30px;
+    }
+    .aboutcontainertext {
+        width: 85%;
+        float: left;
+    }
+}
+
+/* Fade in animation element */
+.animation-element {
+    opacity: 0;
+  }
+
+/* Animation element sliding from left for all browsers */
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 1000ms linear;
+  -webkit-transition: all 1000ms linear;
+  -o-transition: all 1000ms linear;
+  transition: all 1000ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+/* Animation element sliding from right for all browsers */
+.animation-element.slide-right {
+  opacity: 0;
+  -moz-transition: all 1000ms linear;
+  -webkit-transition: all 1000ms linear;
+  -o-transition: all 1000ms linear;
+  transition: all 1000ms linear;
+  -moz-transform: translate3d(100px, 0px, 0px);
+  -webkit-transform: translate3d(100px, 0px, 0px);
+  -o-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  transform: translate3d(100px, 0px, 0px);
+}
+.animation-element.slide-right.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}

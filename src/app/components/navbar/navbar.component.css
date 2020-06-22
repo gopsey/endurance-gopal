@@ -1,0 +1,21 @@
+/* Common width */
+nav .nav-wrapper img {
+    height: 60px;
+    padding: 6px;
+}
+.material-icons.blue-cart {
+    color: #007bd1;
+}
+.btn-flat {
+    text-transform: none;
+}
+.functional-nav {
+    z-index: 999;
+}
+
+/* Mobile Specific Width */
+@media(max-width: 600px) {
+    .main-content {
+        padding: 0 16px;
+    }
+}

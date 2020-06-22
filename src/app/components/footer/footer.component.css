@@ -1,0 +1,60 @@
+.main-content {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+.footer-wrapper {
+    display: inline-block;
+    margin-top: 50px;
+}
+.footer-column {
+    float: left;
+    padding: 0 20px 0 20px;
+}
+.footer-wrapper div p, h6 {
+    color: #ffffff;
+    text-align: left;
+    cursor: pointer;
+}
+h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.copyright-footer {
+    background-color: #000000;
+    display: inline-block;
+    width: 100%;
+}
+.copyright-footer p {
+    color: #ffffff;
+}
+.copyright-footer .copyright, .privacy {
+    float: left;
+    width: 50%;
+}
+/* Web Specific Width */
+@media (min-width: 992px){
+
+}
+
+/* Tablet Specific Width */
+@media(min-width: 768px) {
+
+}
+
+/* Mobile Specific Width */
+@media(max-width: 425px) {
+    .footer-column {
+        float: left;
+        padding: 0 20px 0 20px;
+        width: 100%;
+    }
+    .footer-wrapper {
+        text-align: center;
+    }
+    .footer-wrapper div p, h6 {
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+    }
+}

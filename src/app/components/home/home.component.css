@@ -1,0 +1,84 @@
+/* Coomon css */
+.main-content {
+    padding: 0 100px;
+}
+.g-suite {
+    margin-top: 40px;
+    text-align: center;
+    color: #747474;
+    font-size: 30px;
+}
+.intelligent-text { margin: 0; }
+.bluecolor { color: #4285f4; }
+.bodytext { font-size: 20px; }
+.bodytext strong { font-size: 26px; }
+.dollarsign { font-size: 18px; }
+.plans-text { font-size: 24px; }
+.leftarrow {
+    height: 150px;
+    position: absolute;
+    margin-top: 100px;
+    left: 0;
+}
+.rightarrow {
+    height: 130px;
+    position: absolute;
+    margin-top: 100px;
+    right: 0;
+}
+.centerbanner {
+    margin-top: 20px;
+ }
+.waves-effect {
+    background-color: #007bd1;
+    text-transform: none;
+    width: 150px;
+}
+
+/* Tablet Specific Width */
+@media(min-width: 601px) and (max-width: 991px) {
+    .leftarrow {
+        height: 80px;
+    }
+    .rightarrow {
+        height: 80px;
+    }
+}
+
+/* Mobile Specific Width */
+@media(max-width: 600px) {
+    .main-content {
+        padding: 0 16px;
+    }
+    .leftarrow {
+        width: 0;
+        display: none;
+    }
+    .rightarrow {
+        width: 0;
+        display: none;
+    }
+    .centerbanner {
+        margin-top: 40px;
+    }
+    .intelligent-text { 
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .plans-text { margin-bottom: 10px; }
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 5s;
+    opacity: 1;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
