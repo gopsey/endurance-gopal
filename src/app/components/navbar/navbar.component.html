@@ -1,11 +1,16 @@
-<div class="navbar-fixed">
+<div class="navbar-fixed top-nav">
     <nav>
         <div class="nav-wrapper white">
-            <img src="https://www.endurance.com/wp-content/themes/endurance/assets/images/endurance-header-logo.png" class="brand-image" />
+            <img src="https://www.endurance.com/wp-content/themes/endurance/assets/images/endurance-header-logo.png"
+                class="brand-image" />
             <ul class="right hide-on-med-and-down">
-                <li><a class="waves-effect waves-teal btn-flat"><i class="material-icons left">person</i>Login / Sign up</a></li>
-                <li><a class="waves-effect waves-teal btn-flat dropdown-trigger" data-target="dropdown1">Currency: INR<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a class="waves-effect waves-teal btn-flat"><i class="material-icons blue-cart">shopping_cart</i></a></li>
+                <li><a class="waves-effect waves-teal btn-flat"><i class="material-icons left">person</i>Login / Sign
+                        up</a></li>
+                <li><a class="waves-effect waves-teal btn-flat dropdown-trigger"
+                        data-target="dropdown-currency">Currency: INR<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="waves-effect waves-teal btn-flat"><i
+                            class="material-icons blue-cart">shopping_cart</i></a></li>
             </ul>
         </div>
     </nav>
@@ -17,18 +22,53 @@
             <ul class="left hide-on-med-and-down">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="javascript:void(0)" data-target="dropdown-portfolio">Portfolio<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#faq">FAQs</a></li>
             </ul>
         </div>
     </nav>
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="javascript:void(0)">Contact Us</a></li>
-      <li><a href="javascript:void(0)">Login/Signup</a></li>
-      <li><a href="javascript:void(0)">Currency: INR</a></li>
-      <li><a href="javascript:void(0)">Cart</a></li>
+    <ul class="sidenav section table-of-contents sidenav-close" id="mobile-demo">
+        <li><a href="#home">Home<i class="material-icons">home</i></a></li>
+        <li><a href="#about">About Us<i class="material-icons">info</i></a></li>
+        <li><a href="#pricing">Pricing<i class="material-icons">attach_money</i></a></li>
+        <li class="no-padding">
+            <ul class="collapsible">
+                <li class="active">
+                    <a class="collapsible-header">Portfolio<i class="material-icons">arrow_drop_down</i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#portfolio">Project 1<i class="material-icons">work</i></a></li>
+                            <li><a href="#portfolio">Project 2<i class="material-icons">work</i></a></li>
+                            <li><a href="#portfolio">Project 3<i class="material-icons">work</i></a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#contact">Contact Us<i class="material-icons">call</i></a></li>
+        <li><a href="#faq">FAQs<i class="material-icons">question_answer</i></a></li>
+        <li><a href="javascript:void(0)">Login/Signup<i class="material-icons">person</i></a></li>
+        <li><a href="javascript:void(0)">Currency: INR<i class="material-icons">credit_card</i></a></li>
+        <li><a href="javascript:void(0)">Cart<i class="material-icons">shopping_cart</i></a></li>
+    </ul>
+    <!-- Dropdown Currency -->
+    <ul id="dropdown-currency" class="dropdown-content">
+        <li><a href="javascript:void(0)">INR</a></li>
+        <li class="divider"></li>
+        <li><a href="javascript:void(0)">EUR</a></li>
+        <li class="divider"></li>
+        <li><a href="javascript:void(0)">USD</a></li>
+    </ul>
+    <!-- Dropdown Portfolio -->
+    <ul id="dropdown-portfolio" class="dropdown-content">
+        <li><a href="#portfolio" class="projects-cls">Project 1</a></li>
+        <li class="divider"></li>
+        <li><a href="#portfolio" class="projects-cls">Project 2</a></li>
+        <li class="divider"></li>
+        <li><a href="#portfolio" class="projects-cls">Project 3</a></li>
     </ul>
 </div>

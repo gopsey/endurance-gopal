@@ -1,0 +1,64 @@
+.main-content {
+    text-align: center;
+}
+.collapsible-header .plan-features i {
+    float: right;
+}
+.collapsible-header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.collapsible-header p {
+    text-align: left;
+}
+.collapsible-header .plan-features {
+    padding: 0;
+    font-size: 15px;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.collapsible-body {
+    text-align: left;
+    font-size: 15px;
+    color: #1b1b1b;
+    font-family: sans-serif;
+    padding-left: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.plan-features.s10 {
+    margin-left: 0;
+}
+.material-icons.s1, .material-icons.s1, span.col.s10 {
+    padding: 0;
+    margin: 0;
+}
+.get-started-text :first-child {
+    margin: 7px 10px 7px 0;
+}
+.get-started-text :nth-child(3) {
+    margin: 7px 0 7px 10px;
+}
+
+/* Toggle between add and remove icons */
+.iconadd{
+    display:inline-block ;
+}
+.iconremove{
+  display:none !important;
+}
+li.active .collapsible-header .material-icons.iconadd{
+  display: none;
+}
+li.active .collapsible-header .material-icons.iconremove{
+  display: inline-block !important;
+}
+
+
+/* Mobile Specific Width */
+@media(max-width: 600px) {
+    .get-started-text img {
+        display: none;
+    }
+}

@@ -10,6 +10,8 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { PlansComponent } from './components/plans/plans.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 const routes: Routes = [
   { path: 'item', component: HomeComponent },
@@ -26,7 +28,9 @@ const routes: Routes = [
     PortfolioComponent,
     AboutComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    PlansComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

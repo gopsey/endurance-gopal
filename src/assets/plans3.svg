@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 25" width="40" height="25">
+	<defs>
+		<image width="25" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAA20lEQVRIS+2WwRLCIAxEd3vWj1TP+jF6Vj+yPbtOHejQSFvCTHtqT9CEPFgIgTCfpDuAE4CDtRX0OwBvkrfUl2knAK4FwZZcHinIQtqwggvJ11KkjApnAE8AHcljtFuIegPJ0X8PTNJfjFmIpE+ANiXt3rcGMswqHTzVroWsvxLPXkTfXS6Xam65XNGDsxtSkhupT+0R3vNkdP8t3V2byLU+ZJMjvDkk5sNQ7cgmNwl3Mpr6/9ufBJKtniWQyRofB89BJOVrvJGhurZnpBtWTqt1/46o2XAzZiTtF9VbbR9BLqTrAAAAAElFTkSuQmCC"/>
+		<image width="25" height="25" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAA4ElEQVRIS+1W3RHCIAxO3nUT2p0cQIfRAdwJ2KR9Nl4rcCG2ENuzd3rljSTkyx9JEMQhoisAnADgIHmKew8Ad0S8cFnklwBwViiridw4kATpFnogQXtEPEaiBKGaiVo+IibdRZCmaZJO59yb/hJfDWKMGRUPRs2BEL2c995nRqhB2rZND6213/FEG/8pObUnm4D8T+I3qa5auEo52xM/+RlX//g98aGp6lo9T0IMXaTJrisTtqiEfw5kdsZ/6Ek+44noweKZjWMeZ95iBvrUpJTbVVokBMhYGGvmSHibLSRPKAzFEIi2IJwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Plans">
+		<g id="Plans - centre">
+			<g id="Plan Table">
+				<g id="Plan">
+					<g id="heading-enterprise">
+						<g id="icon">
+							<use id="icon-outline" href="#img1" transform="matrix(1,0,0,1,15,0)"/>
+							<use id="icon-medium" href="#img2" transform="matrix(1,0,0,1,0,0)"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

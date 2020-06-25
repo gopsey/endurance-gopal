@@ -12,10 +12,28 @@ nav .nav-wrapper img {
 .functional-nav {
     z-index: 999;
 }
-
+.functional-nav nav .nav-wrapper ul li a.active {
+    background-color: #9e9e9e;
+}
+.functional-nav nav .nav-wrapper ul li a.projects-cls.active {
+    background-color: #ffffff;
+}
+/* Web Specific Width */
+@media (min-width: 992px){
+    .top-nav {
+        z-index: 1000 !important;
+    }
+}
 /* Mobile Specific Width */
 @media(max-width: 600px) {
     .main-content {
         padding: 0 16px;
+    }
+    nav .nav-wrapper img {
+        height: 54px;
+        padding: 6px;
+    }
+    nav .nav-wrapper {
+        text-align: center;
     }
 }

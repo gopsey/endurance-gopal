@@ -1,0 +1,205 @@
+.main-content {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.get-started-text :first-child {
+    margin: 7px 10px 7px 0;
+}
+.get-started-text :nth-child(3) {
+    margin: 7px 0 7px 10px;
+}
+.choose-text {
+    font-family: sans-serif;
+}
+.plans-header {
+    background-color: #2b2b2b;
+    padding: 30px 50px;
+}
+.plans-wrapper {
+    margin: 26px 60px 0 60px;
+    display: flex;
+}
+.plans-wrapper .each-plan {
+    padding: 0;
+    background-color: #ffffff;
+    position: relative;
+}
+.plans-wrapper .smallplan {
+    border-left: 1px solid #f8f8f8;
+}
+.plans-wrapper .mediumplan {
+    border-left: 1px solid #f8f8f8;
+    border-right: 1px solid #f8f8f8;
+}
+.plans-wrapper .largeplan {
+    border-right: 1px solid #f8f8f8;
+}
+.business-type {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.gsuite-type {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.plan-desc {
+    font-size: 14px;
+    color: #cccccc;
+    font-family: sans-serif;
+}
+.plans-header :last-child {
+    color: rgba(245, 197, 59, 255);
+    font-family: sans-serif;
+}
+.plans-header :last-child :first-child { font-size: 18px; }
+.plans-header :last-child :nth-child(2) { font-size: 32px; }
+.plans-header :last-child :nth-child(3) { font-size: 15px; }
+.plan-features {
+    font-size: 15px;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.collapsible {
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+.collapsible-header {
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    border: none;
+}
+.collapsible-body {
+    padding: 0;
+    border: none;
+}
+.row .col.l11 {
+    font-size: 15px;
+    color: #1b1b1b;
+    font-family: sans-serif;
+}
+.sub-description {
+    padding: 0 40px 70px 40px;
+    text-align: left;
+    background-color: #ffffff;
+}
+.waves-effect {
+    background-color: #007bd1;
+    text-transform: none;
+}
+.select-plan-btn {
+    width: 85%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin: 32px;
+}
+.already-account {
+    font-size: 15px;
+    color: #1b1b1b;
+    font-family: sans-serif;
+    text-align: left;
+    margin: 0 60px 0 60px;
+}
+.control-desc {
+    padding-left: 0;
+}
+.control-icons {
+    margin-top: 16px;
+}
+.control-wrapper {
+    margin-bottom: 30px;
+}
+.control-wrapper .row, .control-wrapper .row .control-desc p {
+    margin-bottom: 0;
+}
+.material-icons {
+    margin-top: 0;
+}
+.plan-span { display: inline-block; }
+.plan-icons { display: inline-block; }
+.material-icons.col.s1.info-icon {
+    height: 5px;
+    margin-left: 8px;
+    color: dimgray;
+}
+.select-image {
+    margin-top: 18px;
+}
+
+/* Collapsible icon rotation */
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all 0.4s ease;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+/* Tablet Specific Width */
+@media(min-width: 601px) and (max-width: 991px) {
+    .plans-header :last-child :nth-child(2) { font-size: 21px; }
+    .business-type {
+        font-size: 12px;
+    }
+    .plans-wrapper {
+        width: 100%;
+        margin: 0 0 0 15px;
+    }
+    .plans-wrapper .each-plan {
+        width: 32%;
+    }
+    .plans-header {
+        padding: 30px 40px;
+    }
+    .select-plan-btn {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+}
+
+/* Mobile Specific Width */
+@media(max-width: 600px) {
+    .get-started-text img {
+        display: none;
+    }
+    .plans-wrapper {
+        display: block;
+        margin: 0 30px 0 30px;
+    }
+    .main-content .select-image {
+        display: none;
+    }
+    .select-plan-btn {
+        width: 100%;
+        margin: 0 0 32px 0;
+    }
+}
+
+/* Toggle between arrow icons */
+.iconadd{
+    display:inline-block ;
+}
+.iconremove{
+    display:none !important;
+}
+li.active .collapsible-header .material-icons.iconadd{
+    display: none;
+}
+li.active .collapsible-header .material-icons.iconremove{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+    display: inline-block !important;
+}

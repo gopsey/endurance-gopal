@@ -34,7 +34,9 @@ h5 {
 .carousel ul.indicators li.indicator-item {
     background-color: teal !important;
 }
-
+.main-content.section {
+    padding: 0;
+}
 /* Tablet Specific Width */
 @media(min-width: 601px) and (max-width: 991px) {
     .carousel {
@@ -55,13 +57,13 @@ h5 {
         height: 600px;
     }
     .portfolioImage {
-        float: left;
+        float: none;
         padding: 0;
         text-align: center;
     }
     .portfolioImage img {
         margin-top: 30px;
-        height: 200px;
+        height: 170px;
         border-radius: 4px;
     }
     .portfolioText {
@@ -82,5 +84,8 @@ h5 {
         margin-top: 0;
         width: 200px;
         font-size: 16px;
+    }
+    .row .col {
+        float: unset;
     }
 }

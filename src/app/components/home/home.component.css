@@ -34,6 +34,7 @@
     text-transform: none;
     width: 150px;
 }
+.plans-wrapper { margin-bottom: 0; }
 
 /* Tablet Specific Width */
 @media(min-width: 601px) and (max-width: 991px) {
