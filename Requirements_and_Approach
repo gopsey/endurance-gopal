@@ -1,0 +1,14 @@
+Requirements satisfied:
+1. Fully functional responsive menubars and containers compatible with all devices and browsers
+2. Subtle use of animations wherever required to improve User Experience
+3. Javascript features such as Carousel, Collapsible, Navbar, Dropdown, Grid, Fade-in, Smooth Anchor Scroll and Forms
+4. Served justice by using colors, dimensions and distances that go in sync with the page irrespective of device size
+5. Carefully handpicked icons and images to add quality content without affecting page speed
+
+My Approach for development
+1. Did Component based development with Angular for code resusability
+2. Did not go mobile-first, since designs had to be thought out for smaller devices
+3. Consistently checked compatibility with Mobile, Web, Tablet, Large screen and other browsers
+4. Used Materialize CSS for Transitions, Javascript plugins and functionalities
+5. Used Adobe Photoshop for image picking and styles recognition
+6. Got inspired from awwwards.com ranked websites for transitions and responsiveness
